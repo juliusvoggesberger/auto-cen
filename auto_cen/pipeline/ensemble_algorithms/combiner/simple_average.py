@@ -1,0 +1,49 @@
+"""
+Implements a wrapper for the pusion Simple Average implementation.
+"""
+
+from ConfigSpace import ConfigurationSpace
+
+from auto_cen.constants import CONTINUOUS_OUT, COMBINATION, MULTICLASS, MULTILABEL, LABELS, \
+    UTILITY_COMBINER
+from auto_cen.pipeline.ensemble_algorithms.base_method import BaseMethod
+from auto_cen.pusion import SimpleAverageCombiner
+
+
+class SimpleAverage(BaseMethod):
+    """
+    Wrapper for the pusion combiner Simple Average.
+    """
+
+    def __init__(self, **kwargs):
+        super().__init__(feature_mask=kwargs["feature_mask"], seed=kwargs["seed"])
+
+        self.model = SimpleAverageCombiner()
+
+    def fit(self, X: list, y: list):
+        # Simple Averaging does not need training
+        return
+
+    def predict(self, X: list) -> list:
+        return self.model.combine(X)
+
+    def predict_proba(self, X: list) -> list:
+        return self.model.combine(X, True)
+
+    def get_params(self, deep=True) -> dict:
+        return {'feature_mask': self.feature_mask,
+                'seed': self.seed, }
+
+    @staticmethod
+    def get_specification_config() -> dict:
+        return {'name': 'AVG',
+                'algorithm': COMBINATION,
+                'is_deterministic': True,
+                'combiner_type': UTILITY_COMBINER,
+                'input': (LABELS, CONTINUOUS_OUT),
+                'problem': (MULTICLASS, MULTILABEL),
+                'output': (LABELS, CONTINUOUS_OUT)}
+
+    @staticmethod
+    def get_config_space() -> ConfigurationSpace:
+        return ConfigurationSpace()

@@ -1,0 +1,4 @@
+,model type,k,wanted k,rid,algorithm,configuration,runtime,balanced_accuracy
+0,Fusion,2,2,8,BKS,"{'Div:algorithm': 'NODIV', 'ENS:size': 2, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BKS'}",7.603759765625,0.39797916666666666
+1,Model,2,2,13,PA,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'PA', 'PA:C': 0.016711829560357633, 'PA:average': True, 'PA:loss': 'hinge', 'PA:tol': 0.0011787086540784996}",758.3545792102814,0.3903958333333333
+2,Model,2,2,14,LDA,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'LDA', 'LDA:solver': 'lsqr', 'LDA:shrinkage': 'auto'}",880.6787755489349,0.3892916666666666

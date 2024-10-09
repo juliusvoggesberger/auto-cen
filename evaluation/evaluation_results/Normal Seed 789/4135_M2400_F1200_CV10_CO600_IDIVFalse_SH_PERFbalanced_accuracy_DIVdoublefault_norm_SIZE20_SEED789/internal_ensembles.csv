@@ -1,0 +1,5 @@
+,model type,k,wanted k,rid,algorithm,configuration,runtime,balanced_accuracy
+0,Fusion,3,3,1,DTEMP,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DTEMP', 'DTEMP:similarity': 'euclidean'}",1.4833550453186035,0.7127636644033439
+1,Model,3,3,1172,MNB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'ENC', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MNB', 'Enc:ENC:encoder': 'one-hot', 'MNB:alpha': 0.022074575653428172, 'MNB:fit_prior': True}",49.82401371002197,0.7026609104299595
+2,Model,3,3,1399,MNB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'ENC', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MNB', 'Enc:ENC:encoder': 'one-hot', 'MNB:alpha': 0.1326112134225071, 'MNB:fit_prior': True}",76.60896468162537,0.7001785581840069
+3,Model,3,3,401,MNB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'ENC', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MNB', 'Enc:ENC:encoder': 'one-hot', 'MNB:alpha': 1.0154998432560838, 'MNB:fit_prior': False}",60.50729584693909,0.6631209489967198

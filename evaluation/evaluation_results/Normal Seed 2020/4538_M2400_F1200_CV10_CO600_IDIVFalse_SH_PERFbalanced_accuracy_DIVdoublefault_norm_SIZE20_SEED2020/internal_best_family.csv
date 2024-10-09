@@ -1,0 +1,14 @@
+,rid,algorithm,configuration,runtime,balanced_accuracy
+0,1,DTEMP,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DTEMP', 'DTEMP:similarity': 'euclidean'}",2.3765153884887695,0.6705911389285695
+1,2,NB,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NB'}",2.6753334999084473,0.6655833689291958
+2,3,MAMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MAMV'}",2.6449947357177734,0.6531830419951661
+3,657,KNN_COMB,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'KNN_COMB', 'KNN_COMB:n_neighbors': 7, 'KNN_COMB:p': 1, 'KNN_COMB:weights': 'uniform'}",3.2437379360198975,0.6284020788208693
+4,5,COS,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'COS'}",4.317724943161011,0.6652050763513561
+5,6,AVG,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'AVG'}",1.697324275970459,0.6477397041787747
+6,32,MIMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MIMV', 'MIMV:threshold': 0.5130887167152958}",1.574995517730713,0.6477397041787747
+7,8,BKS,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BKS'}",3.067042112350464,0.6590467510888646
+8,10,MLE,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MLE'}",3.7154130935668945,0.6982121379874328
+9,12,DS,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DS', 'DS:similarity': 'cosine'}",7.153071165084839,0.6645154036983894
+10,13,BC,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BC'}",1.9300563335418701,0.5988471211062322
+11,24,WV,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'WV', 'WV:scorer': 'macro_recall', 'WV:weighting': 'bw_quadratic'}",1.8022351264953613,0.6667597050288506
+12,666,NN,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NN', 'NN:activation': 'tanh', 'NN:alpha': 0.005347921089100202, 'NN:solver': 'adam', 'NN:tol': 0.0012521438146448937, 'NN:beta_1': 0.9, 'NN:beta_2': 0.999, 'NN:epsilon': 1e-08, 'NN:learning_rate_init': 0.008420891802738945}",7.375243902206421,0.6342567943239998

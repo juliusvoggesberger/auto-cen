@@ -1,0 +1,14 @@
+,rid,algorithm,configuration,runtime,balanced_accuracy
+0,1,DTEMP,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DTEMP', 'DTEMP:similarity': 'euclidean'}",1.661499261856079,0.8824434276245906
+1,2,NB,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NB'}",2.1671364307403564,0.884527073200324
+2,3,MAMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MAMV'}",1.9321630001068115,0.8799419571115734
+3,186,KNN_COMB,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'KNN_COMB', 'KNN_COMB:n_neighbors': 1, 'KNN_COMB:p': 1, 'KNN_COMB:weights': 'distance'}",1.845949649810791,0.8809331706104369
+4,5,COS,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'COS'}",13.122157573699951,0.8764141160923191
+5,6,AVG,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'AVG'}",1.5998082160949707,0.8734405945452144
+6,35,MIMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MIMV', 'MIMV:threshold': 0.4527297951676222}",1.576517105102539,0.8734405945452144
+7,8,BKS,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BKS'}",2.037583589553833,0.8560320622391288
+8,10,MLE,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MLE'}",1.971907138824463,0.9035710196825715
+9,574,NN,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NN', 'NN:activation': 'logistic', 'NN:alpha': 1.4594431593232611e-05, 'NN:solver': 'lbfgs', 'NN:tol': 0.001108245690111664}",7.044693470001221,0.8891100556326744
+10,12,BC,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BC'}",1.6790964603424072,0.8734405945452144
+11,24,WV,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'WV', 'WV:scorer': 'macro_recall', 'WV:weighting': 'bw_quadratic'}",1.7513377666473389,0.87948599399543
+12,23,DS,"{'Div:algorithm': 'NODIV', 'ENS:size': 8, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DS', 'DS:similarity': 'euclidean'}",3.1309823989868164,0.8734405945452144

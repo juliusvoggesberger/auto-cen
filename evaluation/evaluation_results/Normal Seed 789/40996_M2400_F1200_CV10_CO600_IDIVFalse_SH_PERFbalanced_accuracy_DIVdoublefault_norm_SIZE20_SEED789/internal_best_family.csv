@@ -1,0 +1,14 @@
+,rid,algorithm,configuration,runtime,balanced_accuracy
+0,19,DTEMP,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DTEMP', 'DTEMP:similarity': 'manhattan'}",5.687932252883911,0.8671785714285714
+1,2,NB,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NB'}",8.229620933532715,0.8675892857142857
+2,3,MAMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MAMV'}",5.490037441253662,0.8660714285714286
+3,166,KNN_COMB,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'KNN_COMB', 'KNN_COMB:n_neighbors': 49, 'KNN_COMB:p': 2, 'KNN_COMB:weights': 'uniform'}",12.609403848648071,0.855857142857143
+4,5,COS,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'COS'}",10.858103513717651,0.8661607142857143
+5,6,AVG,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'AVG'}",1.2377660274505615,0.8649821428571428
+6,130,MIMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MIMV', 'MIMV:threshold': 0.508702364865976}",1.328458547592163,0.8649821428571428
+7,8,BKS,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BKS'}",14.67164397239685,0.8691249999999998
+8,181,NN,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NN', 'NN:activation': 'tanh', 'NN:alpha': 0.001175782157521146, 'NN:solver': 'adam', 'NN:tol': 6.470484564708551e-05, 'NN:beta_1': 0.9, 'NN:beta_2': 0.999, 'NN:epsilon': 1e-08, 'NN:learning_rate_init': 0.0032866925749838634}",29.418707132339478,0.8627321428571427
+9,11,WV,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'WV', 'WV:scorer': 'micro_f1', 'WV:weighting': 'rescaled'}",1.6071135997772217,0.8681964285714285
+10,13,DS,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DS', 'DS:similarity': 'symmetric_diff'}",66.20057916641235,0.8668392857142857
+11,14,BC,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BC'}",2.193920612335205,0.7929107142857142
+12,21,MLE,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MLE'}",29.32549262046814,0.6792321428571428

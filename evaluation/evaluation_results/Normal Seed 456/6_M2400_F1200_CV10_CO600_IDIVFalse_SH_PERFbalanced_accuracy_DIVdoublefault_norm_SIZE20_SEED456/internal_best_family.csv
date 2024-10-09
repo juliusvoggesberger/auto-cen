@@ -1,0 +1,13 @@
+,rid,algorithm,configuration,runtime,balanced_accuracy
+0,20,DTEMP,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DTEMP', 'DTEMP:similarity': 'symmetric_diff'}",8.291200160980225,0.970840511294315
+1,2,NB,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NB'}",25.91365957260132,0.97099227275278
+2,3,MAMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MAMV'}",3.3047797679901123,0.9707854156281339
+3,17,KNN_COMB,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'KNN_COMB', 'KNN_COMB:n_neighbors': 33, 'KNN_COMB:p': 1, 'KNN_COMB:weights': 'uniform'}",65.78012943267822,0.9706052965758406
+4,5,COS,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'COS'}",67.89735388755798,0.9707856839095653
+5,6,AVG,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'AVG'}",1.2530484199523926,0.9688342533459936
+6,40,MIMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MIMV', 'MIMV:threshold': 0.3536965114704138}",1.287013053894043,0.9701265048270032
+7,8,BKS,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BKS'}",40.63509488105774,0.9323317076582922
+8,10,MLE,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MLE'}",263.6544222831726,0.5632456925137511
+9,27,NN,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NN', 'NN:activation': 'tanh', 'NN:alpha': 0.0024803375751156513, 'NN:solver': 'adam', 'NN:tol': 0.04922139056043184, 'NN:beta_1': 0.9, 'NN:beta_2': 0.999, 'NN:epsilon': 1e-08, 'NN:learning_rate_init': 0.0037914349137590014}",98.14302468299866,0.9715525947790077
+10,29,BC,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BC'}",3.121140718460083,0.9387522300123365
+11,37,WV,"{'Div:algorithm': 'NODIV', 'ENS:size': 11, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'WV', 'WV:scorer': 'micro_f1', 'WV:weighting': 'bw_quadratic'}",1.682915210723877,0.9761885518710148

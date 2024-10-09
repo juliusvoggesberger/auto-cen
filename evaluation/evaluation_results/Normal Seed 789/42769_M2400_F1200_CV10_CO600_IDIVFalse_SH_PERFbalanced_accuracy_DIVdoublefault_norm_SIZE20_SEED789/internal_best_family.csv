@@ -1,0 +1,12 @@
+,rid,algorithm,configuration,runtime,balanced_accuracy
+0,1,DTEMP,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DTEMP', 'DTEMP:similarity': 'euclidean'}",20.621215343475342,0.7301981313568879
+1,2,NB,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NB'}",64.55340576171875,0.7303195823747339
+2,3,MAMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MAMV'}",41.52971816062927,0.7138595775755371
+3,6,MLE,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MLE'}",60.21936893463135,0.7305295529170521
+4,7,MIMV,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MIMV', 'MIMV:threshold': 0.2565392070523824}",3.67767071723938,0.7043790158896841
+5,8,AVG,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'AVG'}",3.3974952697753906,0.7138595775755371
+6,13,BKS,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BKS'}",295.273065328598,0.7360540949292131
+7,33,NN,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'NN', 'NN:activation': 'relu', 'NN:alpha': 8.509724902614144e-05, 'NN:solver': 'lbfgs', 'NN:tol': 0.0008233399217163495}",555.5540781021118,0.7363687798001444
+8,15,BC,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'BC'}",15.39188838005066,0.7138595775755371
+9,34,WV,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'WV', 'WV:scorer': 'accuracy', 'WV:weighting': 'bw_quadratic'}",12.615184783935547,0.7306588344040513
+10,27,DS,"{'Div:algorithm': 'NODIV', 'ENS:size': 9, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DS', 'DS:similarity': 'euclidean'}",170.23652458190918,0.7273081539714837

@@ -1,0 +1,4 @@
+,model type,k,wanted k,rid,algorithm,configuration,runtime,balanced_accuracy
+0,Fusion,2,2,1,DTEMP,"{'Div:algorithm': 'NODIV', 'ENS:size': 2, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DTEMP', 'DTEMP:similarity': 'euclidean'}",8.283316850662231,0.6202262639643334
+1,Model,2,2,6,GB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'GB', 'GB:l2_regularization': 1.8440987466002508e-09, 'GB:learning_rate': 0.038522869393643765, 'GB:min_samples_leaf': 84}",861.3288922309875,0.5766320591377213
+2,Model,2,2,11,GB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'GB', 'GB:l2_regularization': 1.5481646655709492e-07, 'GB:learning_rate': 0.23505986156428454, 'GB:min_samples_leaf': 94}",738.3581643104553,0.5991088864392169

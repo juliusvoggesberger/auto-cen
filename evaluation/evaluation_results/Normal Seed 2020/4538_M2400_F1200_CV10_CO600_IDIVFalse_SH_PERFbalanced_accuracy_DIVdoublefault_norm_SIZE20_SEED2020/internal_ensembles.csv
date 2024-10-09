@@ -1,0 +1,5 @@
+,model type,k,wanted k,rid,algorithm,configuration,runtime,balanced_accuracy
+0,Fusion,3,3,10,MLE,"{'Div:algorithm': 'NODIV', 'ENS:size': 3, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MLE'}",3.7154130935668945,0.6982121379874328
+1,Model,3,3,123,KNN_CLASS,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'KNN_CLASS', 'KNN_CLASS:n_neighbors': 2, 'KNN_CLASS:p': 1, 'KNN_CLASS:weights': 'distance'}",6.769232749938965,0.6667597050288506
+2,Model,3,3,110,GB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'GB', 'GB:l2_regularization': 6.404571261269957e-07, 'GB:learning_rate': 0.36101818936430513, 'GB:min_samples_leaf': 33}",32.92706298828125,0.6213054389777891
+3,Model,3,3,181,GB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'GB', 'GB:l2_regularization': 1.9721862363487452e-10, 'GB:learning_rate': 0.4908861207891, 'GB:min_samples_leaf': 107}",43.66837549209595,0.6236965343796995

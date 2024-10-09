@@ -1,0 +1,3 @@
+,model type,k,wanted k,rid,algorithm,configuration,runtime,balanced_accuracy
+0,Fusion,1,2,1,DTEMP,"{'Div:algorithm': 'NODIV', 'ENS:size': 2, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'DTEMP', 'DTEMP:similarity': 'euclidean'}",1.533660888671875,0.7745442653446807
+1,Model,1,2,766,MNB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'ENC', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'MNB', 'Enc:ENC:encoder': 'one-hot', 'MNB:alpha': 0.020619970338361174, 'MNB:fit_prior': False}",59.16084289550781,0.7745442653446807

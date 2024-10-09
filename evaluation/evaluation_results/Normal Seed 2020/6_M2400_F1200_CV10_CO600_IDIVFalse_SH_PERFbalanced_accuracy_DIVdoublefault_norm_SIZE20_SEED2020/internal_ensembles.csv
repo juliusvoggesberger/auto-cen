@@ -1,0 +1,4 @@
+,model type,k,wanted k,rid,algorithm,configuration,runtime,balanced_accuracy
+0,Fusion,2,2,14,WV,"{'Div:algorithm': 'NODIV', 'ENS:size': 2, 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'WV', 'WV:scorer': 'micro_recall', 'WV:weighting': 'simple'}",1.3256213665008545,0.9767182689792142
+1,Model,2,2,128,GB,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'GB', 'GB:l2_regularization': 1.5481646655709492e-07, 'GB:learning_rate': 0.23505986156428454, 'GB:min_samples_leaf': 94}",93.58953976631165,0.9692151098723751
+2,Model,2,2,494,SVM,"{'Div:algorithm': 'NODIV', 'Enc:algorithm': 'NOEnc', 'Fe:algorithm': 'NOFE', 'Pre:algorithm': 'NOPRE', 'algorithm': 'SVM', 'SVM:C': 249.58717221259866, 'SVM:gamma': 0.03667929736731424, 'SVM:kernel': 'rbf', 'SVM:tol': 0.004586070845377003}",49.74917149543762,0.9767182689792142
