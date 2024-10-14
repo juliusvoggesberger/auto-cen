@@ -34,7 +34,7 @@ if __name__ == '__main__':
     sel_heuristic = ""
     perf_metric = BALANCED_ACCURACY
     div_metric = DOUBLEFAULT_NORM
-    ensemble_size = 8
+    ensemble_size = 10
     find_ensemble_size = False
     seed = 123
 
@@ -59,4 +59,4 @@ if __name__ == '__main__':
 
     # Fit and evaluate the ensemble model
     el.fit_evaluate(X, y, n_processes=4, save_path=SAVE_PATH, stratify=y,
-                    train_size=0.70, valid_size=0.15, test_size=0.15)
+                    train_size=0.80, test_size=0.20)
