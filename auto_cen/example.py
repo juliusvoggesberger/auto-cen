@@ -9,7 +9,7 @@ from openml import datasets
 
 from auto_cen.constants import ACCURACY, F1_MACRO, BALANCED_ACCURACY, DOUBLEFAULT, ROC_AUC_OVO, \
     DISAGREEMENT, DOUBLEFAULT_NORM
-import auto_cen as ao
+import auto_cen as ac
 from auto_cen.optimization.bo import BayesianOptimization
 
 # Activate Logging
@@ -45,7 +45,7 @@ if __name__ == '__main__':
         ensemble_size) + "_SEED" + str(seed)
 
     # Set up Auto-CEn
-    el = ao.EnsembleLearner(ensemble_size, budget_m, budget_f,
+    el = ac.EnsembleLearner(ensemble_size, budget_m, budget_f,
                             cutoff_time=cutoff_time,
                             solver=BayesianOptimization,
                             n_splits=n_splits,
