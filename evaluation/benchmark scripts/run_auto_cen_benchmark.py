@@ -52,4 +52,4 @@ if __name__ == '__main__':
                             eval_div_metrics=[DOUBLEFAULT_NORM, DOUBLEFAULT],
                             seed=seed)
     el.fit_evaluate(X, y, n_processes=8, save_path=SAVE_PATH, stratify=y,
-                    train_size=0.70, valid_size=0.15, test_size=0.15)
+                    train_size=0.8, valid_size=0.0, test_size=0.2)
