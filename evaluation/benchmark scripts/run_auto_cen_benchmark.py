@@ -7,7 +7,7 @@ import logging
 
 from openml import datasets
 
-import auto_cen as ao
+import auto_cen as ac
 from auto_cen.constants import BALANCED_ACCURACY, DOUBLEFAULT, DOUBLEFAULT_NORM
 from auto_cen.optimization.bo import BayesianOptimization
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
                                    download_features_meta_data=False)
     X, y, _, _ = dataset.get_data(dataset.default_target_attribute)
 
-    el = ao.EnsembleLearner(ens_size, model_budget, fusion_budget,
+    el = ac.EnsembleLearner(ens_size, model_budget, fusion_budget,
                             cutoff_time=cutoff_time,
                             solver=BayesianOptimization,
                             n_splits=cross_valid,

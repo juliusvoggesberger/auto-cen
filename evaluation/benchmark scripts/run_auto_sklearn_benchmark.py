@@ -150,10 +150,9 @@ if __name__ == '__main__':
     budget = int(sys.argv[2])
     seed = int(sys.argv[3])
 
-    max_models_on_disc = 50
     memory_limit = None
 
-    # 1h laufen lassen
+    # Run for 1h
     automl = autosklearn.classification.AutoSklearnClassifier(time_left_for_this_task=budget,
                                                               initial_configurations_via_metalearning=0,
                                                               resampling_strategy="cv",
@@ -173,7 +172,7 @@ if __name__ == '__main__':
     enc = preprocessing.LabelEncoder()
     enc.fit(y)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, stratify=y,
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y,
                                                         random_state=seed)
 
 
