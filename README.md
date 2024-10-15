@@ -94,10 +94,10 @@ An example of a more advanced call can then be:
                             seed=123)
 
 
-The fit_evaluate method can be customized by specifying the dataset split to be used (`train_size, test_size`), if stratification should be used (`stratify`), if parallelization should be used (`n_processes`) and where the evaluation results should be saved (`save_path`):
+The fit_evaluate method can be customized by specifying the dataset split to be used (`train_size, valid_size, test_size`), if stratification should be used (`stratify`), if parallelization should be used (`n_processes`) and where the evaluation results should be saved (`save_path`):
 
     el.fit_evaluate(X, y, n_processes=8, save_path=SAVE_PATH, stratify=y,
-                    train_size=0.80, test_size=0.20)
+                    train_size=0.80, valid_size=0.0, test_size=0.20)
 
 
 ## Reproducibility

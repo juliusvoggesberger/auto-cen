@@ -30,7 +30,7 @@ if __name__ == '__main__':
     budget_m = 60
     budget_f = 60
     n_splits = 10
-    cutoff_time = 300
+    cutoff_time = 60
     sel_heuristic = ""
     perf_metric = BALANCED_ACCURACY
     div_metric = DOUBLEFAULT_NORM
@@ -59,4 +59,4 @@ if __name__ == '__main__':
 
     # Fit and evaluate the ensemble model
     el.fit_evaluate(X, y, n_processes=4, save_path=SAVE_PATH, stratify=y,
-                    train_size=0.80, test_size=0.20)
+                    train_size=0.8, valid_size=0.0, test_size=0.2)

@@ -66,8 +66,9 @@ class EnsembleLearner:
                                For each size budget_f will be used.
     :param n_splits: Number of splits used for the cross-validation.
                      Default 1, i.e. no cv will be used.
-                     If > 1, cv will be used. As such only two data sets (Train, Validation) will
-                     have to be passed.
+                     If > 1, cv will be used. As such only two data sets (Train, Test) have to
+                     be passed when fitting the ensemble, as the cross-validation results will be
+                     used to train the decision fusion method.
     :param cutoff_time: The time (in seconds) after which a configuration training will be stopped
                         by BO.
     :param seed: A random state which will be used - if set to an integer - ,
