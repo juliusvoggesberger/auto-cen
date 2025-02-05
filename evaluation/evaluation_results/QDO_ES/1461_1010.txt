@@ -1,0 +1,24 @@
+SingleBest_seed_1010:
+Score per fold: [array([0.76268937, 0.75165072, 0.63585198])]
+Average Score: [0.76268937 0.75165072 0.63585198]
+
+####################################################################################################
+
+EnsembleSelection|use_best_seed_1010:
+Score per fold: [array([0.86796417, 0.81536222, 0.74579828])]
+Average Score: [0.86796417 0.81536222 0.74579828]
+
+####################################################################################################
+
+QDOEnsembleSelection|archive_type:sliding|batch_size:20|behavior_space:bs_configspace_similarity_and_loss_correlation|buffer_ratio:1.0|crossover:two_point_crossover|crossover_probability:0.5|crossover_probability_dynamic|elite_selection_method:deterministic|emitter_initialization_method:AllL1|max_elites:16|mutation_probability_after_crossover:0.5|mutation_probability_after_crossover_dynamic|starting_step_size:1_seed_1010:
+Score per fold: [array([0.86851709, 0.81854511, 0.74753301])]
+Average Score: [0.86851709 0.81854511 0.74753301]
+
+####################################################################################################
+
+QDOEnsembleSelection|archive_type:quality|batch_size:20|crossover:two_point_crossover|crossover_probability:0.5|crossover_probability_dynamic|elite_selection_method:deterministic|emitter_initialization_method:AllL1|max_elites:16|mutation_probability_after_crossover:0.5|mutation_probability_after_crossover_dynamic|starting_step_size:1_seed_1010:
+Score per fold: [array([0.87282981, 0.8119678 , 0.7496654 ])]
+Average Score: [0.87282981 0.8119678  0.7496654 ]
+
+####################################################################################################
+

@@ -154,7 +154,6 @@ if __name__ == '__main__':
 
     # Run for 1h
     automl = autosklearn.classification.AutoSklearnClassifier(time_left_for_this_task=budget,
-                                                              initial_configurations_via_metalearning=0,
                                                               resampling_strategy="cv",
                                                               resampling_strategy_arguments={
                                                                   "folds": 10},
@@ -187,8 +186,6 @@ if __name__ == '__main__':
         writer_object.writerow([str(dataset_id)] + list(report_dict.values()))
         f_object.close()
 
-    enc = preprocessing.LabelEncoder()
-    enc.fit(y)
     evaluate_diversity(automl, X_train, y_train, X_test, y_test, "autosklearn_" + str(dataset_id),
                        enc, seed)
 

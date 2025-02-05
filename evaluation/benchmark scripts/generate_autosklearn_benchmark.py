@@ -17,7 +17,7 @@ with open("commands.sh", "w") as f:
             # Delete auto-sklearn outputs to avoid filling up the memory
             if i > 0 and i % 2 == 0:
                 f.write(
-                    "find ~/auto_cen -name \"tmp_*\" -type d -mmin +60 -exec rm -rf {} +\n")
+                    "find ~/auto_sklearn -name \"tmp_*\" -type d -mmin +60 -exec rm -rf {} +\n")
                 f.write("\n")
         f.write("\n")
-    f.write("find ~/auto_cen -name \"tmp_*\" -type d -mmin +60 -exec rm -rf {} +\n")
+    f.write("find ~/auto_sklearn -name \"tmp_*\" -type d -mmin +60 -exec rm -rf {} +\n")
