@@ -1,6 +1,6 @@
 # Q(D)O-ES Custom Fork
 
-This repo contains the changes made to the original Q(D)O-ES repository in order to be able to run the code
+This contains a changed version of Q(D)O-ES in order to be able to run the code
 (in one file/command instead of separate files) with the following custom changes:
 
 ## Changes:

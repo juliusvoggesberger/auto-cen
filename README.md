@@ -116,6 +116,10 @@ The folder for saving the evaluation results is set via the `save_path` paramete
 ## Reproducibility
 This repository provides the code necessary to reproduce the results of the paper "Auto-CEn: AutoML for Classifier Ensembles - Diversity-based Classifier Selection and Decision Fusion Optimization".
 
+The code used for the baselines auto-sklearn and QDO-ES are provided in the folder `evaluation/baselines`.
+The modifications done for each baseline are specified in their respective README file.
+The code for DivBO can be requested from us if needed.
+
 The scripts for generating and running the evaluation are located in `evaluation/benchmark scripts`.
 Here, `generate_auto_cen_benchmark.py`, `generate_autosklearn_benchmark.py` and `generate_divbo_benchmark.py` generate shell scripts that can be used to reproduce the evaluation.
 
