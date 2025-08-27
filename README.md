@@ -27,6 +27,7 @@ The repository structure is explained in the following. Each module contains a R
 │   ├── utils: Package containing helper modules for the framework.
 │   ├── constants.py: Module containing constant values of the framework.
 │   ├── example.py: Module containing example code for running the framework.
+│────── appendix.pdf: Additional information for the Auto-CEn paper.
 └────── requirements.txt: Text file containing the library dependencies.
 ```
 
