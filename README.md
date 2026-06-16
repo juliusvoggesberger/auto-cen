@@ -135,3 +135,22 @@ Here, the shell script calls `run_divbo_benchmark.py` for each dataset, which ru
 
 For QDO-ES no shell script needs to be generated.
 Instead, the python script `run_qdo_es_benchmark.py` can be run directly.
+
+## Cite
+If you use our work in you scientific publications, we would appreciate you citing our paper:
+
+J. Voggesberger, P. Reimann, D. Treder-Tschechlov and B. Mitschang, "Auto-CEn: AutoML for Classifier Ensembles - Diversity-Based Classifier Selection and Decision Fusion Optimization," 2025 IEEE 12th International Conference on Data Science and Advanced Analytics (DSAA), Birmingham, United Kingdom, 2025, pp. 1-10, doi: 10.1109/DSAA65442.2025.11248022.
+
+[Link](https://ieeexplore.ieee.org/abstract/document/11248022) to our paper.
+
+```
+@inproceedings{Voggesberger.2025.DSAA,
+  author={Voggesberger, Julius and Reimann, Peter and Treder-Tschechlov, Dennis and Mitschang, Bernhard},
+  title={{Auto-CEn: AutoML for Classifier Ensembles - Diversity-Based Classifier Selection and Decision Fusion Optimization}},
+  booktitle={{2025 IEEE 12\textsuperscript{th} International Conference on Data Science and Advanced Analytics (DSAA)}},  
+  year={2025},
+  pages={1-10},
+  publisher={IEEE},
+  doi={10.1109/DSAA65442.2025.11248022}
+}
+```
